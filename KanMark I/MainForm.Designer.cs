@@ -1,6 +1,6 @@
 ﻿namespace KanMark_I
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newKanbanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -36,6 +37,8 @@
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.todoBox = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.rmCardBtn = new System.Windows.Forms.Button();
             this.doingBox = new System.Windows.Forms.GroupBox();
             this.doneBox = new System.Windows.Forms.GroupBox();
@@ -43,6 +46,8 @@
             this.newTaskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newCardBtn = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
+            this.todoBox.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,11 +56,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1158, 33);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
@@ -65,70 +67,66 @@
             this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
-            this.fileToolStripMenuItem.Text = "File";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
             // 
             // newKanbanToolStripMenuItem
             // 
             this.newKanbanToolStripMenuItem.Name = "newKanbanToolStripMenuItem";
-            this.newKanbanToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
-            this.newKanbanToolStripMenuItem.Text = "New Kanban";
+            resources.ApplyResources(this.newKanbanToolStripMenuItem, "newKanbanToolStripMenuItem");
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
-            this.openToolStripMenuItem.Text = "Open";
+            resources.ApplyResources(this.openToolStripMenuItem, "openToolStripMenuItem");
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
-            this.saveToolStripMenuItem.Text = "Save";
+            resources.ApplyResources(this.saveToolStripMenuItem, "saveToolStripMenuItem");
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(213, 34);
-            this.saveAsToolStripMenuItem.Text = "Save as...";
+            resources.ApplyResources(this.saveAsToolStripMenuItem, "saveAsToolStripMenuItem");
             // 
             // todoBox
             // 
-            this.todoBox.Location = new System.Drawing.Point(26, 36);
+            resources.ApplyResources(this.todoBox, "todoBox");
+            this.todoBox.Controls.Add(this.groupBox1);
             this.todoBox.Name = "todoBox";
-            this.todoBox.Size = new System.Drawing.Size(365, 631);
-            this.todoBox.TabIndex = 1;
             this.todoBox.TabStop = false;
-            this.todoBox.Text = "To do";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.richTextBox1);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // richTextBox1
+            // 
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             // 
             // rmCardBtn
             // 
-            this.rmCardBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            resources.ApplyResources(this.rmCardBtn, "rmCardBtn");
             this.rmCardBtn.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.rmCardBtn.Location = new System.Drawing.Point(190, 673);
             this.rmCardBtn.Name = "rmCardBtn";
-            this.rmCardBtn.Size = new System.Drawing.Size(158, 34);
-            this.rmCardBtn.TabIndex = 5;
-            this.rmCardBtn.Text = "Remove Card";
             this.rmCardBtn.UseVisualStyleBackColor = true;
             // 
             // doingBox
             // 
-            this.doingBox.Location = new System.Drawing.Point(397, 36);
+            resources.ApplyResources(this.doingBox, "doingBox");
             this.doingBox.Name = "doingBox";
-            this.doingBox.Size = new System.Drawing.Size(365, 631);
-            this.doingBox.TabIndex = 2;
             this.doingBox.TabStop = false;
-            this.doingBox.Text = "Doing";
             // 
             // doneBox
             // 
-            this.doneBox.Location = new System.Drawing.Point(768, 36);
+            resources.ApplyResources(this.doneBox, "doneBox");
             this.doneBox.Name = "doneBox";
-            this.doneBox.Size = new System.Drawing.Size(365, 631);
-            this.doneBox.TabIndex = 3;
             this.doneBox.TabStop = false;
-            this.doneBox.Text = "Done";
             // 
             // contextMenuStrip1
             // 
@@ -136,31 +134,25 @@
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newTaskToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(158, 36);
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
             // newTaskToolStripMenuItem
             // 
             this.newTaskToolStripMenuItem.Name = "newTaskToolStripMenuItem";
-            this.newTaskToolStripMenuItem.Size = new System.Drawing.Size(157, 32);
-            this.newTaskToolStripMenuItem.Text = "New Task";
+            resources.ApplyResources(this.newTaskToolStripMenuItem, "newTaskToolStripMenuItem");
             // 
             // newCardBtn
             // 
-            this.newCardBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.newCardBtn.Location = new System.Drawing.Point(26, 673);
+            resources.ApplyResources(this.newCardBtn, "newCardBtn");
             this.newCardBtn.Name = "newCardBtn";
-            this.newCardBtn.Size = new System.Drawing.Size(158, 34);
-            this.newCardBtn.TabIndex = 4;
-            this.newCardBtn.Text = "New Card";
             this.newCardBtn.UseVisualStyleBackColor = true;
             this.newCardBtn.Click += new System.EventHandler(this.newCardBtn_Click);
             // 
-            // Form1
+            // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1158, 719);
             this.Controls.Add(this.rmCardBtn);
             this.Controls.Add(this.newCardBtn);
             this.Controls.Add(this.doneBox);
@@ -169,10 +161,11 @@
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "KanMark I";
+            this.Name = "MainForm";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.todoBox.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -194,5 +187,7 @@
         private ToolStripMenuItem newTaskToolStripMenuItem;
         private Button newCardBtn;
         private Button rmCardBtn;
+        private GroupBox groupBox1;
+        private RichTextBox richTextBox1;
     }
 }

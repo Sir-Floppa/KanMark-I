@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KanMark_I
 {
-    public partial class Form2 : Form
+    public partial class NewCardForm : Form
     {
-        public Form2()
+        public NewCardForm()
         {
             InitializeComponent();
         }

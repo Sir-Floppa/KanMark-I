@@ -5,7 +5,6 @@ C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kan
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\ref\KanMark I.dll
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\KanMark I.pdb
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.AssemblyReference.cache
-C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.Form1.resources
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.GenerateResource.cache
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.AssemblyInfoInputs.cache
@@ -16,4 +15,8 @@ C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kan
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.pdb
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.genruntimeconfig.cache
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.Properties.Resources.resources
-C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.Form2.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.MainForm.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.NewCardForm.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\en-US\KanMark I.resources.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.MainForm.en-US.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\en-US\KanMark I.resources.dll

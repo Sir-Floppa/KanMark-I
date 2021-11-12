@@ -1,6 +1,6 @@
 ﻿namespace KanMark_I
 {
-    partial class Form2
+    partial class NewCardForm
     {
         /// <summary>
         /// Required designer variable.
