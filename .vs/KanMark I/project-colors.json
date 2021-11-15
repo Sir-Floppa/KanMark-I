@@ -5,7 +5,12 @@
       "ProjectGuid": "99702547-75b3-4668-905c-25b03a3c05f5",
       "DisplayName": "KanMark I",
       "ColorIndex": 0
+    },
+    "5d7e2c0d-99b7-4055-907e-d3b804a52ab6": {
+      "ProjectGuid": "5d7e2c0d-99b7-4055-907e-d3b804a52ab6",
+      "DisplayName": "Controller",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }

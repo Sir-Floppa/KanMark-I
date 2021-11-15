@@ -16,5 +16,15 @@ namespace KanMark_I
         {
             InitializeComponent();
         }
+
+        private void submitBtn_Click(object sender, EventArgs e)
+        {
+            string title = titleBox.Text;
+            string desc = descBox.Text;
+
+            Controller.TaskCard newCard = new Controller.TaskCard(title, desc);
+
+            // Connect with the DB and add the new card
+        }
     }
 }

@@ -1,0 +1,6 @@
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\Controller\bin\Debug\Controller.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\Controller\bin\Debug\Controller.pdb
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\Controller\obj\Debug\Controller.csproj.AssemblyReference.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\Controller\obj\Debug\Controller.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\Controller\obj\Debug\Controller.pdb

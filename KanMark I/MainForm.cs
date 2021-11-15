@@ -9,7 +9,9 @@ namespace KanMark_I
 
         private void newCardBtn_Click(object sender, EventArgs e)
         {
-
+            // Spawns the New Card Form
+            NewCardForm newTask = new NewCardForm();
+            newTask.Show();
         }
     }
 }

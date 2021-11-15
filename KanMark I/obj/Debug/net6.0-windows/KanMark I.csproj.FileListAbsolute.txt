@@ -20,3 +20,6 @@ C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kan
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\en-US\KanMark I.resources.dll
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.MainForm.en-US.resources
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\en-US\KanMark I.resources.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Controller.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Controller.pdb
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.CopyComplete

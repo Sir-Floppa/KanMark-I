@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanMark I", "KanMark I\KanMark I.csproj", "{99702547-75B3-4668-905C-25B03A3C05F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KanMark I", "KanMark I\KanMark I.csproj", "{99702547-75B3-4668-905C-25B03A3C05F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{5D7E2C0D-99B7-4055-907E-D3B804A52AB6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{99702547-75B3-4668-905C-25B03A3C05F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99702547-75B3-4668-905C-25B03A3C05F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99702547-75B3-4668-905C-25B03A3C05F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7E2C0D-99B7-4055-907E-D3B804A52AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7E2C0D-99B7-4055-907E-D3B804A52AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7E2C0D-99B7-4055-907E-D3B804A52AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7E2C0D-99B7-4055-907E-D3B804A52AB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

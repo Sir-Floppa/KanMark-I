@@ -7,14 +7,32 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "KanMark I/1.0.0": {
+        "dependencies": {
+          "Controller": "1.0.0"
+        },
         "runtime": {
           "KanMark I.dll": {}
+        },
+        "resources": {
+          "en-US/KanMark I.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "Controller/1.0.0": {
+        "runtime": {
+          "Controller.dll": {}
         }
       }
     }
   },
   "libraries": {
     "KanMark I/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Controller/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
