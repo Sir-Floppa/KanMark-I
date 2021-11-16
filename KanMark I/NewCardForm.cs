@@ -22,9 +22,18 @@ namespace KanMark_I
             string title = titleBox.Text;
             string desc = descBox.Text;
 
-            Controller.TaskCard newCard = new Controller.TaskCard(title, desc);
+            if (title != "" && desc != "")
+            {
+                Controller.TaskCard newCard = new Controller.TaskCard(title, desc);
 
-            // Connect with the DB and add the new card
+                // Connect with the DB and add the new card
+
+                this.Close();
+            }
+            else
+            {
+                
+            }
         }
     }
 }

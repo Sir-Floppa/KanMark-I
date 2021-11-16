@@ -7,7 +7,7 @@ namespace KanMark_I
             InitializeComponent();
         }
 
-        private void newCardBtn_Click(object sender, EventArgs e)
+        private void NewCardBtn_Click(object sender, EventArgs e)
         {
             // Spawns the New Card Form
             NewCardForm newTask = new NewCardForm();

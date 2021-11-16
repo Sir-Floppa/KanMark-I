@@ -23,3 +23,41 @@ C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kan
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Controller.dll
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Controller.pdb
 C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.CopyComplete
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\KanMark I.exe
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\KanMark I.deps.json
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\KanMark I.runtimeconfig.json
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\KanMark I.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\ref\KanMark I.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\KanMark I.pdb
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\en-US\KanMark I.resources.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\DnsClient.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\libzstd.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\snappy32.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\snappy64.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\Controller.dll
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\Controller.pdb
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.AssemblyReference.cache
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.MainForm.resources
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.NewCardForm.resources
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.Properties.Resources.resources
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.MainForm.en-US.resources
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.GenerateResource.cache
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.AssemblyInfoInputs.cache
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.AssemblyInfo.cs
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.CoreCompileInputs.cache
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\en-US\KanMark I.resources.dll
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.csproj.CopyComplete
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.dll
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\ref\KanMark I.dll
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.pdb
+C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\KanMark I.genruntimeconfig.cache
+C:\Users\nicol\KanMark-I\KanMark I\bin\Debug\net6.0-windows\Control.Draggable.dll

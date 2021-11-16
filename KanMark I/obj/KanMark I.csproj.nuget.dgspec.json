@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\KanMark I\\KanMark I.csproj": {}
+    "C:\\Users\\nicol\\KanMark-I\\KanMark I\\KanMark I.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\Controller\\Controller.csproj": {
+    "C:\\Users\\nicol\\KanMark-I\\Controller\\Controller.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\Controller\\Controller.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\KanMark-I\\Controller\\Controller.csproj",
         "projectName": "Controller",
-        "projectPath": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\Controller\\Controller.csproj",
+        "projectPath": "C:\\Users\\nicol\\KanMark-I\\Controller\\Controller.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\KanMark I\\KanMark I.csproj": {
+    "C:\\Users\\nicol\\KanMark-I\\KanMark I\\KanMark I.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\KanMark I\\KanMark I.csproj",
+        "projectUniqueName": "C:\\Users\\nicol\\KanMark-I\\KanMark I\\KanMark I.csproj",
         "projectName": "KanMark I",
-        "projectPath": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\KanMark I\\KanMark I.csproj",
+        "projectPath": "C:\\Users\\nicol\\KanMark-I\\KanMark I\\KanMark I.csproj",
         "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\KanMark I\\obj\\",
+        "outputPath": "C:\\Users\\nicol\\KanMark-I\\KanMark I\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,8 +47,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\Controller\\Controller.csproj": {
-                "projectPath": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\Controller\\Controller.csproj"
+              "C:\\Users\\nicol\\KanMark-I\\Controller\\Controller.csproj": {
+                "projectPath": "C:\\Users\\nicol\\KanMark-I\\Controller\\Controller.csproj"
               }
             }
           }
@@ -63,6 +63,10 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Control.Draggable": {
+              "target": "Package",
+              "version": "[1.0.5049.269, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.13.2, )"
