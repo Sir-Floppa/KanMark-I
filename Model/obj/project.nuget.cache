@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1QrsCAtokc6RgnuKONMV7JIJjg6q3R3hGQJt2IY6s1iKQWLWIuFm7Xbth/qAVeyZh9BQ3JngmNcJ0Oq9/DFjBA==",
+  "dgSpecHash": "LIa7QciLP033ielZIXeEJbBLgkruOdLaddi87m1lqYmlY9kxFefg1/mQfgxEIPIIF6lG0tjODGtIk6GG0zszoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\KanMark-I\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",

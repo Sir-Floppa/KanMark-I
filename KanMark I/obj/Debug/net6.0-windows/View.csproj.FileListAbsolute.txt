@@ -36,3 +36,43 @@ C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\View.dll
 C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\ref\View.dll
 C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\View.pdb
 C:\Users\nicol\KanMark-I\KanMark I\obj\Debug\net6.0-windows\View.genruntimeconfig.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\View.exe
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\View.deps.json
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\View.runtimeconfig.json
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\View.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\ref\View.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\View.pdb
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\en-US\View.resources.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Control.Draggable.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\DnsClient.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\libzstd.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\snappy32.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\snappy64.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Controller.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Controller.pdb
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.csproj.AssemblyReference.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.MainForm.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.NewCardForm.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.Properties.Resources.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\KanMark_I.MainForm.en-US.resources
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.csproj.GenerateResource.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.AssemblyInfoInputs.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.AssemblyInfo.cs
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\en-US\View.resources.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.csproj.CopyComplete
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\ref\View.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.pdb
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\obj\Debug\net6.0-windows\View.genruntimeconfig.cache
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Model.dll
+C:\Users\nicol\Desktop\Carrera\2do Semestre\Taller de Programación\Proyecto Kanban\KanMark I\KanMark I\bin\Debug\net6.0-windows\Model.pdb

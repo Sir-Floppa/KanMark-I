@@ -27,8 +27,7 @@ namespace KanMark_I
                 Controller.TaskCard newCard = new Controller.TaskCard(title, desc);
 
                 // Connect with the DB and add the new card
-
-                this.Close();
+                Model.Model.newTaskDB(newCard);
             }
             else
             {

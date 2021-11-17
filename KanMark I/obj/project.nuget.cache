@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5C+PN2y/y+VsjXT5Ca8HKEmD3eZic5Zeqpc95CQ+O9BvKQmEHasMj6QDA9CMEpB1WuNTCBrvb36Xve75VaBpyA==",
+  "dgSpecHash": "JF+szW0iHEiMqBBfTIhjb/3epT5zF5/1BMQamrqBFhz0JhbZw6sTAsE6azUK1Z2y8YXaU92k5KGirbeRVOrbQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\KanMark-I\\KanMark I\\View.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\Desktop\\Carrera\\2do Semestre\\Taller de Programación\\Proyecto Kanban\\KanMark I\\KanMark I\\View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\control.draggable\\1.0.5049.269\\control.draggable.1.0.5049.269.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
@@ -21,7 +21,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Control.Draggable 1.0.5049.269' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"Control.Draggable 1.0.5049.269\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net6.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Control.Draggable",
       "targetGraphs": [
         "net6.0-windows7.0"
