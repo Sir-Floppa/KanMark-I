@@ -12,14 +12,9 @@ namespace Model
 
             var dblist = client.ListDatabases().ToList();
 
-            Console.WriteLine("AAAAAAAAAAAAAAAA1");
-            System.Diagnostics.Debug.Write("AAAAAAAAAAAAAA2");
-
             foreach (var db in dblist)
             {
-                Console.WriteLine(db);
                 System.Diagnostics.Debug.WriteLine(db);
-                Trace.WriteLine(db);
             }
             // var database = client.GetDatabase("testKanban");
         }

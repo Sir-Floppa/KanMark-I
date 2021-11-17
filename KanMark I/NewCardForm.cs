@@ -31,7 +31,8 @@ namespace KanMark_I
             }
             else
             {
-                
+                MessageBox.Show("Task Title and Description should not be empty.", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -36,14 +36,14 @@
             this.rightBtn = new System.Windows.Forms.Button();
             this.leftBtn = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.todoGrp = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.NewCardBtn = new System.Windows.Forms.Button();
             this.RmCardBtn = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.todoGrp.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -86,12 +86,12 @@
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             // 
-            // groupBox2
+            // todoGrp
             // 
-            this.groupBox2.Controls.Add(this.groupBox1);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.TabStop = false;
+            this.todoGrp.Controls.Add(this.groupBox1);
+            resources.ApplyResources(this.todoGrp, "todoGrp");
+            this.todoGrp.Name = "todoGrp";
+            this.todoGrp.TabStop = false;
             // 
             // groupBox3
             // 
@@ -118,6 +118,7 @@
             resources.ApplyResources(this.RmCardBtn, "RmCardBtn");
             this.RmCardBtn.Name = "RmCardBtn";
             this.RmCardBtn.UseVisualStyleBackColor = true;
+            this.RmCardBtn.Click += new System.EventHandler(this.RmCardBtn_Click);
             // 
             // MainForm
             // 
@@ -128,13 +129,13 @@
             this.Controls.Add(this.RmCardBtn);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.todoGrp);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.contextMenuStrip1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
+            this.todoGrp.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -146,7 +147,7 @@
         private Button rightBtn;
         private Button leftBtn;
         private RichTextBox richTextBox1;
-        private GroupBox groupBox2;
+        private GroupBox todoGrp;
         private GroupBox groupBox3;
         private GroupBox groupBox5;
         private Button NewCardBtn;
