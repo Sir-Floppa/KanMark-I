@@ -212,7 +212,7 @@
     <value>4, 5, 4, 5</value>
   </data>
   <data name="todoGrp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 647</value>
+    <value>357, 908</value>
   </data>
   <data name="todoGrp.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -232,77 +232,77 @@
   <data name="&gt;&gt;todoGrp.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="groupBox3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="doingGrp.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="doingGrp.Location" type="System.Drawing.Point, System.Drawing">
     <value>393, 20</value>
   </data>
-  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="doingGrp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
-  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="doingGrp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 647</value>
+  <data name="doingGrp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 908</value>
   </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="doingGrp.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="groupBox3.Text" xml:space="preserve">
+  <data name="doingGrp.Text" xml:space="preserve">
     <value>Doing</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;doingGrp.Name" xml:space="preserve">
+    <value>doingGrp</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;doingGrp.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;doingGrp.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;doingGrp.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="groupBox5.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="doneGrp.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 12pt, style=Bold</value>
   </data>
-  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="doneGrp.Location" type="System.Drawing.Point, System.Drawing">
     <value>759, 20</value>
   </data>
-  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="doneGrp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
-  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="doneGrp.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 5, 4, 5</value>
   </data>
-  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 647</value>
+  <data name="doneGrp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 908</value>
   </data>
-  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+  <data name="doneGrp.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="groupBox5.Text" xml:space="preserve">
+  <data name="doneGrp.Text" xml:space="preserve">
     <value>Done</value>
   </data>
-  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
-    <value>groupBox5</value>
+  <data name="&gt;&gt;doneGrp.Name" xml:space="preserve">
+    <value>doneGrp</value>
   </data>
-  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;doneGrp.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;doneGrp.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;doneGrp.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="NewCardBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="NewCardBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 675</value>
+    <value>27, 936</value>
   </data>
   <data name="NewCardBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 33</value>
@@ -329,7 +329,7 @@
     <value>NoControl</value>
   </data>
   <data name="RmCardBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>191, 675</value>
+    <value>191, 936</value>
   </data>
   <data name="RmCardBtn.Size" type="System.Drawing.Size, System.Drawing">
     <value>159, 33</value>
@@ -362,7 +362,7 @@
     <value>10, 25</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1164, 727</value>
+    <value>1164, 981</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

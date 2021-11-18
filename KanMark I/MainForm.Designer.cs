@@ -37,8 +37,8 @@
             this.leftBtn = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.todoGrp = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.doingGrp = new System.Windows.Forms.GroupBox();
+            this.doneGrp = new System.Windows.Forms.GroupBox();
             this.NewCardBtn = new System.Windows.Forms.Button();
             this.RmCardBtn = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
@@ -93,17 +93,17 @@
             this.todoGrp.Name = "todoGrp";
             this.todoGrp.TabStop = false;
             // 
-            // groupBox3
+            // doingGrp
             // 
-            resources.ApplyResources(this.groupBox3, "groupBox3");
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.TabStop = false;
+            resources.ApplyResources(this.doingGrp, "doingGrp");
+            this.doingGrp.Name = "doingGrp";
+            this.doingGrp.TabStop = false;
             // 
-            // groupBox5
+            // doneGrp
             // 
-            resources.ApplyResources(this.groupBox5, "groupBox5");
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.TabStop = false;
+            resources.ApplyResources(this.doneGrp, "doneGrp");
+            this.doneGrp.Name = "doneGrp";
+            this.doneGrp.TabStop = false;
             // 
             // NewCardBtn
             // 
@@ -127,8 +127,8 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.NewCardBtn);
             this.Controls.Add(this.RmCardBtn);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.doneGrp);
+            this.Controls.Add(this.doingGrp);
             this.Controls.Add(this.todoGrp);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MaximizeBox = false;
@@ -148,8 +148,8 @@
         private Button leftBtn;
         private RichTextBox richTextBox1;
         private GroupBox todoGrp;
-        private GroupBox groupBox3;
-        private GroupBox groupBox5;
+        private GroupBox doingGrp;
+        private GroupBox doneGrp;
         private Button NewCardBtn;
         private Button RmCardBtn;
     }

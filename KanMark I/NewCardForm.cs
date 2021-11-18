@@ -28,6 +28,7 @@ namespace KanMark_I
 
                 // Connect with the DB and add the new card
                 Model.Model.newTaskDB(newCard);
+                Close();
             }
             else
             {
