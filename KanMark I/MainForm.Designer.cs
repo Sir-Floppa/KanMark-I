@@ -32,18 +32,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.newTaskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rightBtn = new System.Windows.Forms.Button();
-            this.leftBtn = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.todoGrp = new System.Windows.Forms.GroupBox();
             this.doingGrp = new System.Windows.Forms.GroupBox();
             this.doneGrp = new System.Windows.Forms.GroupBox();
             this.NewCardBtn = new System.Windows.Forms.Button();
             this.RmCardBtn = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.todoGrp.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -59,36 +53,8 @@
             this.newTaskToolStripMenuItem.Name = "newTaskToolStripMenuItem";
             resources.ApplyResources(this.newTaskToolStripMenuItem, "newTaskToolStripMenuItem");
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.rightBtn);
-            this.groupBox1.Controls.Add(this.leftBtn);
-            this.groupBox1.Controls.Add(this.richTextBox1);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.TabStop = false;
-            // 
-            // rightBtn
-            // 
-            resources.ApplyResources(this.rightBtn, "rightBtn");
-            this.rightBtn.Name = "rightBtn";
-            this.rightBtn.UseVisualStyleBackColor = true;
-            // 
-            // leftBtn
-            // 
-            resources.ApplyResources(this.leftBtn, "leftBtn");
-            this.leftBtn.Name = "leftBtn";
-            this.leftBtn.UseVisualStyleBackColor = true;
-            // 
-            // richTextBox1
-            // 
-            resources.ApplyResources(this.richTextBox1, "richTextBox1");
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            // 
             // todoGrp
             // 
-            this.todoGrp.Controls.Add(this.groupBox1);
             resources.ApplyResources(this.todoGrp, "todoGrp");
             this.todoGrp.Name = "todoGrp";
             this.todoGrp.TabStop = false;
@@ -134,8 +100,6 @@
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.contextMenuStrip1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.todoGrp.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -143,10 +107,6 @@
         #endregion
         private ContextMenuStrip contextMenuStrip1;
         private ToolStripMenuItem newTaskToolStripMenuItem;
-        private GroupBox groupBox1;
-        private Button rightBtn;
-        private Button leftBtn;
-        private RichTextBox richTextBox1;
         private GroupBox todoGrp;
         private GroupBox doingGrp;
         private GroupBox doneGrp;

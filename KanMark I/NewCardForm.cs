@@ -12,6 +12,8 @@ namespace KanMark_I
 {
     public partial class NewCardForm : Form
     {
+        public string title;
+        public string desc;
         public NewCardForm()
         {
             InitializeComponent();
@@ -19,8 +21,8 @@ namespace KanMark_I
 
         private void submitBtn_Click(object sender, EventArgs e)
         {
-            string title = titleBox.Text;
-            string desc = descBox.Text;
+            title = titleBox.Text;
+            desc = descBox.Text;
 
             if (title != "" && desc != "")
             {

@@ -12,6 +12,11 @@ namespace KanMark_I
             // Spawns the New Card Form
             NewCardForm newTask = new NewCardForm();
             newTask.Show();
+            newTask.FormClosing += (e, sender) =>
+            {
+                System.Diagnostics.Debug.WriteLine("Form Closing");
+                ShowNewCard(newTask.title, newTask.desc, new Point(19, todoGrp.Height - 195), "To do");
+            };
         }
 
         public void ShowNewCard(string title, string desc, Point grpLocation, string status)
@@ -31,6 +36,14 @@ namespace KanMark_I
             newGrp.Size = new Size(316, 183);
             newGrp.Font = new Font("Segoe UI Black", 10);
             ControlExtension.Draggable(newGrp, true);
+            newGrp.Click += (sender, e) =>
+            {
+                if (Cursor == Cursors.Cross)
+                {
+                    newGrp.Hide();
+                    Cursor = Cursors.Default;
+                }
+            };
 
             TextBox newBox = new TextBox();
             newBox.Text = desc;
@@ -123,7 +136,9 @@ namespace KanMark_I
 
         private void RmCardBtn_Click(object sender, EventArgs e)
         {
-            ShowNewCard("1234", "asdasd", new Point(19, todoGrp.Height - 195), "To do");
+            System.Diagnostics.Debug.WriteLine("Remove Card Button");
+
+            Cursor = Cursors.Cross;
         }
     }
 }
