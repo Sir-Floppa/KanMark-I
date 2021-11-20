@@ -1,3 +1,6 @@
+using MongoDB.Bson;
+using MongoDB.Driver;
+
 namespace KanMark_I
 {
     public partial class MainForm : Form
@@ -5,6 +8,18 @@ namespace KanMark_I
         public MainForm()
         {
             InitializeComponent();
+
+            System.Diagnostics.Debug.WriteLine("Initializing component");
+            var docs = Model.Model.ConnectToDB().Find(new BsonDocument()).ToEnumerable();
+
+            foreach (var doc in docs)
+            {
+                ShowNewCard(doc[1].ToString(),
+                    doc[2].ToString(),
+                    new Point(doc[4].ToInt32(), doc[5].ToInt32()),
+                    doc[3].ToString());
+            }
+            
         }
 
         private void NewCardBtn_Click(object sender, EventArgs e)
@@ -21,6 +36,8 @@ namespace KanMark_I
 
         public void ShowNewCard(string title, string desc, Point grpLocation, string status)
         {
+            // Creates the new cards in the hierarchy
+
             GroupBox parent;
             switch (status)
             {
@@ -32,7 +49,7 @@ namespace KanMark_I
 
             GroupBox newGrp = new GroupBox();
             newGrp.Text = title;
-            newGrp.Location = new Point(19, todoGrp.Height - 195);
+            newGrp.Location = grpLocation;
             newGrp.Size = new Size(316, 183);
             newGrp.Font = new Font("Segoe UI Black", 10);
             ControlExtension.Draggable(newGrp, true);
@@ -42,6 +59,8 @@ namespace KanMark_I
                 {
                     newGrp.Hide();
                     Cursor = Cursors.Default;
+
+                    Model.Model.removeFromDB(title, desc);
                 }
             };
 
@@ -87,11 +106,15 @@ namespace KanMark_I
                 {
                     newRightBtn.Parent.Parent = doingGrp;
                     newLeftBtn.Enabled = true;
+
+                    Model.Model.updateStatus("Doing", title, desc);
                 }
                 else if(newRightBtn.Parent.Parent == doingGrp)
                 {
                     newRightBtn.Parent.Parent = doneGrp;
                     newRightBtn.Enabled = false;
+
+                    Model.Model.updateStatus("Done", title, desc);
                 }
             };
 
@@ -101,19 +124,24 @@ namespace KanMark_I
                 {
                     newLeftBtn.Parent.Parent = doingGrp;
                     newRightBtn.Enabled = true;
+
+                    Model.Model.updateStatus("Doing", title, desc);
                 }
 
                 else if (newLeftBtn.Parent.Parent == doingGrp)
                 {
                     newLeftBtn.Parent.Parent = todoGrp;
                     newLeftBtn.Enabled = false;
+
+                    Model.Model.updateStatus("To do", title, desc);
                 }
             };
 
-            // Makes sure the GroupBox is never disaligned
+            // Makes sure the GroupBox is never disaligned and updates the GroupBox's position in the DB
             newGrp.MouseUp += (sender, e) =>
             {
                 newGrp.Location = new Point(19, newGrp.Location.Y);
+                Model.Model.updatePosition(newGrp.Location.Y, title, desc);
             };
 
             // Show all the new controls

@@ -11,19 +11,16 @@ namespace Controller
         public string taskName;
         public string taskDescription;
         public string taskStatus;
+        public int posX;
+        public int posY;
 
-        public TaskCard(string taskName, string taskDescription)
+        public TaskCard(string taskName, string taskDescription, string taskStatus, int PosX, int PosY)
         {
-            this.taskName = taskName;
-            this.taskDescription = taskDescription;
-            this.taskStatus = "To do";
-        }
-
-        public TaskCard(string taskName, string taskDescription, string taskStatus)
-        {
-            this.taskName = taskName;
-            this.taskDescription = taskDescription;
-            this.taskStatus = taskStatus;
+            this.taskName=taskName;
+            this.taskDescription=taskDescription;  
+            this.taskStatus=taskStatus;
+            this.posX = PosX;
+            this.posY = PosY;
         }
     }
 }

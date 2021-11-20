@@ -26,7 +26,7 @@ namespace KanMark_I
 
             if (title != "" && desc != "")
             {
-                Controller.TaskCard newCard = new Controller.TaskCard(title, desc);
+                Controller.TaskCard newCard = new Controller.TaskCard(title, desc, "To do", 19, 713);
 
                 // Connect with the DB and add the new card
                 Model.Model.newTaskDB(newCard);
