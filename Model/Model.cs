@@ -7,7 +7,8 @@ namespace Model
     public abstract class Model
     {
         public static string currentCollection = "Default Board";
-        private static string mongoClient = "mongodb://localhost:27017";
+        public static string mongoClient = "mongodb://localhost:27017";
+        private static string db = "KanMark-1_DB";
 
         public static IMongoCollection<BsonDocument> ConnectToDB()
         {
@@ -20,7 +21,7 @@ namespace Model
                 System.Diagnostics.Debug.WriteLine(db);
             }
 
-            var database = client.GetDatabase("testKanban");
+            var database = client.GetDatabase(db);
 
             var collection = database.GetCollection<BsonDocument>(currentCollection);
 
@@ -33,7 +34,7 @@ namespace Model
 
             var dblist = client.ListDatabases().ToList();
 
-            var database = client.GetDatabase("testKanban");
+            var database = client.GetDatabase(db);
 
             var collections = database.ListCollectionNames().ToList();
 
@@ -46,7 +47,7 @@ namespace Model
 
             var dblist = client.ListDatabases().ToList();
 
-            var database = client.GetDatabase("testKanban");
+            var database = client.GetDatabase(db);
 
             database.DropCollection(collection);
         }

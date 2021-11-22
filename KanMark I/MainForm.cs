@@ -189,5 +189,11 @@ namespace KanMark_I
             BoardForm boardForm = new BoardForm();
             boardForm.ShowDialog();
         }
+
+        private void dbBtn_Click(object sender, EventArgs e)
+        {
+            PortForm portForm = new PortForm();
+            portForm.ShowDialog();
+        }
     }
 }

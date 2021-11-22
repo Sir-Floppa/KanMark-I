@@ -38,6 +38,7 @@
             this.NewCardBtn = new System.Windows.Forms.Button();
             this.RmCardBtn = new System.Windows.Forms.Button();
             this.manageBtn = new System.Windows.Forms.Button();
+            this.dbBtn = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -94,11 +95,19 @@
             this.manageBtn.UseVisualStyleBackColor = true;
             this.manageBtn.Click += new System.EventHandler(this.manageBtn_Click);
             // 
+            // dbBtn
+            // 
+            resources.ApplyResources(this.dbBtn, "dbBtn");
+            this.dbBtn.Name = "dbBtn";
+            this.dbBtn.UseVisualStyleBackColor = true;
+            this.dbBtn.Click += new System.EventHandler(this.dbBtn_Click);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.dbBtn);
             this.Controls.Add(this.manageBtn);
             this.Controls.Add(this.NewCardBtn);
             this.Controls.Add(this.RmCardBtn);
@@ -122,5 +131,6 @@
         private Button NewCardBtn;
         private Button RmCardBtn;
         private Button manageBtn;
+        private Button dbBtn;
     }
 }
