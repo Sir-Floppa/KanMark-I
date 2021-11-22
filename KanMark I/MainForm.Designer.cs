@@ -37,6 +37,7 @@
             this.doneGrp = new System.Windows.Forms.GroupBox();
             this.NewCardBtn = new System.Windows.Forms.Button();
             this.RmCardBtn = new System.Windows.Forms.Button();
+            this.manageBtn = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -86,11 +87,19 @@
             this.RmCardBtn.UseVisualStyleBackColor = true;
             this.RmCardBtn.Click += new System.EventHandler(this.RmCardBtn_Click);
             // 
+            // manageBtn
+            // 
+            resources.ApplyResources(this.manageBtn, "manageBtn");
+            this.manageBtn.Name = "manageBtn";
+            this.manageBtn.UseVisualStyleBackColor = true;
+            this.manageBtn.Click += new System.EventHandler(this.manageBtn_Click);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.manageBtn);
             this.Controls.Add(this.NewCardBtn);
             this.Controls.Add(this.RmCardBtn);
             this.Controls.Add(this.doneGrp);
@@ -112,5 +121,6 @@
         private GroupBox doneGrp;
         private Button NewCardBtn;
         private Button RmCardBtn;
+        private Button manageBtn;
     }
 }

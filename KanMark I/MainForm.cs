@@ -107,14 +107,14 @@ namespace KanMark_I
                     newRightBtn.Parent.Parent = doingGrp;
                     newLeftBtn.Enabled = true;
 
-                    Model.Model.updateStatus("Doing", title, desc);
+                    Model.Model.updateStatus("Doing", title, desc, "To do");
                 }
                 else if(newRightBtn.Parent.Parent == doingGrp)
                 {
                     newRightBtn.Parent.Parent = doneGrp;
                     newRightBtn.Enabled = false;
 
-                    Model.Model.updateStatus("Done", title, desc);
+                    Model.Model.updateStatus("Done", title, desc, "Doing");
                 }
             };
 
@@ -125,7 +125,7 @@ namespace KanMark_I
                     newLeftBtn.Parent.Parent = doingGrp;
                     newRightBtn.Enabled = true;
 
-                    Model.Model.updateStatus("Doing", title, desc);
+                    Model.Model.updateStatus("Doing", title, desc, "Done");
                 }
 
                 else if (newLeftBtn.Parent.Parent == doingGrp)
@@ -133,15 +133,30 @@ namespace KanMark_I
                     newLeftBtn.Parent.Parent = todoGrp;
                     newLeftBtn.Enabled = false;
 
-                    Model.Model.updateStatus("To do", title, desc);
+                    Model.Model.updateStatus("To do", title, desc, "Doing");
                 }
             };
 
             // Makes sure the GroupBox is never disaligned and updates the GroupBox's position in the DB
             newGrp.MouseUp += (sender, e) =>
             {
+                string status = "To do";
+
+                if(newGrp.Parent == todoGrp)
+                {
+                    status = "To do";
+                }
+                else if(newGrp.Parent == doingGrp)
+                {
+                    status = "Doing";
+                }
+                else if(newGrp.Parent == doneGrp)
+                {
+                    status = "Done";
+                }
+
                 newGrp.Location = new Point(19, newGrp.Location.Y);
-                Model.Model.updatePosition(newGrp.Location.Y, title, desc);
+                Model.Model.updatePosition(newGrp.Location.Y, title, desc, status);
             };
 
             // Show all the new controls
@@ -167,6 +182,12 @@ namespace KanMark_I
             System.Diagnostics.Debug.WriteLine("Remove Card Button");
 
             Cursor = Cursors.Cross;
+        }
+
+        private void manageBtn_Click(object sender, EventArgs e)
+        {
+            BoardForm boardForm = new BoardForm();
+            boardForm.ShowDialog();
         }
     }
 }
