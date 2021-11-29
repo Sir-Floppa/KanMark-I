@@ -107,12 +107,12 @@
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.doingGrp);
             this.Controls.Add(this.dbBtn);
             this.Controls.Add(this.manageBtn);
             this.Controls.Add(this.NewCardBtn);
             this.Controls.Add(this.RmCardBtn);
             this.Controls.Add(this.doneGrp);
-            this.Controls.Add(this.doingGrp);
             this.Controls.Add(this.todoGrp);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MaximizeBox = false;
